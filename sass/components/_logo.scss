@@ -1,0 +1,19 @@
+.icon {
+  fill: currentColor;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  display: inline-block;
+  width: 80px;
+  height: 23px;
+
+  &-header {
+    color: $--accent-color;
+  }
+
+  &-footer {
+    color: $--secondary-title-color;
+  }
+}

@@ -1,0 +1,143 @@
+.container-product {
+  @extend %flex;
+  justify-content: space-between;
+
+  padding-top: 120px;
+  padding-bottom: 170px;
+}
+
+.card-overlay {
+  position: relative;
+  left: 64px;
+
+  width: 639px;
+  height: 573px;
+
+  border-radius: 18px;
+  background-color: rgba(1, 153, 109, 0.2);
+}
+
+.image-mikayla {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.card {
+  position: absolute;
+  left: -64px;
+  bottom: -74px;
+
+  width: 295px;
+  padding: 22px 72px;
+
+  box-shadow: 0px 3px 18px 0px rgba(165, 165, 165, 0.25);
+  background-color: $--secondary-title-color;
+}
+
+.card__description {
+  margin: 0;
+  margin: auto;
+  margin-bottom: 13px;
+
+  width: 110px;
+
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5;
+
+  border-bottom: 1px solid $--title-color;
+  color: $--title-color;
+}
+
+.card__name {
+  margin: 0;
+  margin-bottom: 20px;
+
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+
+  color: $--title-color;
+}
+
+.card__title {
+  margin: 0;
+  margin-bottom: 16px;
+
+  font-family: $--font-title;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.6;
+
+  color: $--title-color;
+}
+
+.card__image {
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 10px;
+
+  width: 60px;
+  height: 60px;
+
+  border-radius: 40px;
+  background-color: rgba(1, 153, 109, 0.2);
+}
+
+.card__list {
+  @extend %list;
+}
+
+.card__item {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.6;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.product__pre-title {
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.product-title {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-family: $--font-title;
+  font-weight: 700px;
+  font-size: 50px;
+  line-height: 1.6;
+
+  color: $--accent-color;
+}
+
+.product-description {
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.product-btn {
+  @extend %btn;
+}
+
+.product-box {
+  width: 584px;
+}

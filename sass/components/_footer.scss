@@ -1,0 +1,28 @@
+.footer {
+  padding-top: 95px;
+  padding-bottom: 145px;
+  background-color: $--footer-color;
+}
+
+.footer-nav__list {
+  @extend %list;
+  margin-top: 60px;
+}
+
+.footer-nav__item {
+  margin-bottom: 60px;
+
+  &:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
+
+.footer-nav__link {
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.2;
+
+  color: $--secondary-title-color;
+}

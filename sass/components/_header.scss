@@ -1,0 +1,70 @@
+.page-header {
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.container-header {
+  @extend %flex;
+}
+
+.nav {
+  @extend %flex;
+}
+
+.nav__list {
+  @extend %flex;
+  @extend %list;
+
+  margin-left: 172px;
+}
+
+.nav__item {
+  margin-right: 72px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__link {
+  display: inline-block;
+  text-decoration: none;
+
+  padding: 30px 0;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: currentColor;
+}
+
+.login-list {
+  @extend %flex;
+  @extend %list;
+  margin-left: auto;
+}
+
+.login-list__item {
+  margin-right: 35px;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.login-list__link {
+  display: inline-block;
+  text-decoration: 0;
+
+  padding: 30px 0;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: currentColor;
+}
+
+.btn__header {
+  @extend %btn;
+  padding: 13px 50px;
+}

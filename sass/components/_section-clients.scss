@@ -1,0 +1,48 @@
+.section-clients {
+  padding-top: 230px;
+  padding-bottom: 177px;
+
+  background-color: $--footer-color;
+}
+
+.container-clients {
+  @extend %flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.clients-title {
+  margin: 0;
+  margin-bottom: 35px;
+  width: 580px;
+
+  font-family: $--font-title;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.6;
+
+  color: $--secondary-title-color;
+}
+
+.clients-description {
+  margin: 0;
+  margin-bottom: 57px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.6;
+
+  color: $--secondary-title-color;
+}
+
+.clients-btn {
+  @extend %btn;
+}
+
+.video-overlay {
+  overflow: hidden;
+  width: 895px;
+  height: 515px;
+
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
